@@ -1,4 +1,4 @@
-dwg-website
-===========
+GA4GH Data Working Group website
+================================
 
-GA4GH Data Working Group website hosted at ga4gh.org
+The official GA4GH Data Working Group (DWG) website is hosted at [ga4gh.org](http://ga4gh.org).
