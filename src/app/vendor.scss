@@ -1,0 +1,131 @@
+/* Do not il-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+// Rules for using icons as black on a light background.
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+// Rules for using icons as white on a dark background.
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+. emove this comments bellow. It's the markers used by wiredep to inject
+   sass dependencies when defined in the bower.json of your dependencies */
+// bower:scss
+// endbower
+
+.icondemoFontIconsWithLigatures {
+ /* Rules for sizing the icon.*/
+  /* Rules for using icons as black on a light background.*/
+  /* Rules for using icons as white on a dark background.*/ }
+  .icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures {
+    padding: 25px;
+    width: 100%; }
+  .icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures, .icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:before, .icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:after {
+    box-sizing: border-box; }
+  .icondemoFontIconsWithLigatures header {
+    overflow: hidden; }
+  .icondemoFontIconsWithLigatures header h1 {
+    color: #888;
+    font-size: 36px;
+    font-weight: 300; }
+  .icondemoFontIconsWithLigatures .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 960px;
+    padding: 40px 40px;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .icondemoFontIconsWithLigatures .glyph {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px;
+    margin-bottom: 20px; }
+  .icondemoFontIconsWithLigatures .preview-scale, .icondemoFontIconsWithLigatures .preview-glyphs {
+    display: flex;
+    flex-direction: row; }
+  .icondemoFontIconsWithLigatures .preview-scale {
+    color: #888;
+    font-size: 12px;
+    margin-top: 24px; }
+  .icondemoFontIconsWithLigatures .step {
+    flex-grow: 1;
+    line-height: 0.5; }
+  .icondemoFontIconsWithLigatures .usage {
+    margin-top: 10px; }
+  .icondemoFontIconsWithLigatures .usage input {
+    font-family: monospace;
+    text-align: center; }
+  .icondemoFontIconsWithLigatures .usage .point {
+    width: 150px; }
+  .icondemoFontIconsWithLigatures .usage .class {
+    width: 250px; }
+  .icondemoFontIconsWithLigatures .material-icons.md-18 {
+    font-size: 18px; }
+  .icondemoFontIconsWithLigatures .material-icons.md-24 {
+    font-size: 24px; }
+  .icondemoFontIconsWithLigatures .material-icons.md-36 {
+    font-size: 36px; }
+  .icondemoFontIconsWithLigatures .material-icons.md-48 {
+    font-size: 48px; }
+  .icondemoFontIconsWithLigatures .material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54); }
+  .icondemoFontIconsWithLigatures .material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26); }
+  .icondemoFontIconsWithLigatures .material-icons.md-light {
+    color: white; }
+  .icondemoFontIconsWithLigatures .material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3); }
+
+
+
+// Rules for sizing the icon.
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+// Rules for using icons as black on a light background.
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+// Rules for using icons as white on a dark background.
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+//  .glyph {
+//      margin-top: 5px;
+//     margin-right: 7px;
+// }
+.underline {
+
+    border-bottom: 1px dotted #ccc;
+
+}
+// .md-tab-content {
+//   padding: 25px; }
+//   .tabsdemoStaticTabs md-tab-content:nth-child(1) {
+//     background-color: #42A5F5; }
+//   .tabsdemoStaticTabs md-tab-content:nth-child(2) {
+//     background-color: #689F38; }
+//   .tabsdemoStaticTabs md-tab-content:nth-child(3) {
+//     background-color: #26C6DA; }
+// .after-tabs-area > span {
+//   margin-top: 25px;
+//   padding-right: 15px;
+//   vertical-align: middle;
+//   line-height: 30px;
+//   height: 35px; }
+// .after-tabs-area > md-checkbox {
+//   margin-top: 26px;
+//   margin-left: 0; }
+// 
+
+      .angular-google-map {
+            height: 200px; }
+
+.angular-google-map-container {
+      position: relative;
+        width: 100%;
+          height: 200px; }
+
+

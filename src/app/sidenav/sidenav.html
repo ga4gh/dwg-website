@@ -1,0 +1,33 @@
+<md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
+    <md-toolbar class="md-tall md-theme-indigo">
+        <h1 class="md-toolbar-tools">DWG Task Teams and Projects</h1>
+    </md-toolbar>
+    <md-content>
+        <ul ng-repeat="team in teams" class="text-left">
+            <li>
+                <md-button ng-href="{{team.url}}">{{team.name}}</md-button>
+            </li>
+        </ul>
+    </md-content>
+
+</md-sidenav>
+<md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+    <md-toolbar class="md-tall md-theme-indigo">
+        <h1 class="md-toolbar-tools">Get Involved</h1>
+    </md-toolbar>
+    <md-content>
+        <div flex md-padding class="md-padding md-body">if you would like to know more about the Data Working Group and Task Teams please email <a href=mailto:stephen.keenan@genomicsandhealth.org
+            ">Stephen Keenan</a> or <a href=mailto:david.lloyd@genomicsandhealth.org">David Lloyd</a>
+            or visit our GitHub site where you can follow the development of our APIs and follow our discussion"</div>
+
+        <ul ng-repeat="get in getinvolved" class="text-left">
+            <li>
+                <md-button ng-href="{{get.url}}">
+
+                    <i class="fa fa-github-alt fa-1x"></i>
+                    <!-- <md-icon md-font-library="material-github" class="md-24 md-dark">face</md-icon> -->
+                    {{get.name}}</md-button>
+            </li>
+        </ul>
+    </md-content>
+</md-sidenav>

@@ -1,0 +1,22 @@
+<!-- <div> -->
+<!-- <md-icon ng-style="{padding: 2 }" md-font-library="material-icons">group_work</md-icon> -->
+<!-- </div> -->
+<!-- <md-icon md-font-icon="icon-home" ng-style="{color: 'green', 'font-size':'36px', height:'36px'}"> -->
+<h1 class=" md-display-1">Team Members</h1>
+<div layout="row" layout-align="space-around center">
+    <div layout="row" ng-repeat="member_chunk in members">
+        <md-list>
+            <md-list-item class="md-2-line" ng-repeat="member in member_chunk">
+                <md-icon md-font-set="material-icons" class="md-36 md-dark">face</md-icon>
+                <div class="md-list-item-text">
+                    <h3>{{member.name}}
+                        <span ng-if="member.status!=='member'" class="md-caption">[{{member.status}}]</span>
+                    </h3>
+                    <p>
+                    <md-icon md-font-set="material-icons" class="md-18 md-dark">school</md-icon>{{member.institute}}
+                    </p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </div>
+</div>
