@@ -76,18 +76,11 @@ angular.module('ga4gh')
     },
      {
       'name': 'Adam Margolin',
-      'title': 'Genotype to Phenotype Task Team Co-chair',
+      'title': 'Genotype to Phenotype Task Team Chair',
       'institute': 'Oregon Health & Science University (OHSU)',
       'image': image_root + 'adam_margolin.jpg',
       'bio': 'Adam Margolin is the Director of Computational Biology and an Associate Professor at Oregon Health & Science University.'
     },
-     {
-      'name': 'Nicole Washington',
-      'title': 'Genotype to Phenotype Task Team Co-chair',
-      'institute': 'Lawrence Berkeley National Laboratory',
-      'image': image_root + 'nicole_washington.jpg',
-      'bio': 'Nicole Washington is a Research Scientist in the Genomics Division of the Lawrence Berkeley National Laboratory and Lead Bioinformaticist for the Monarch Initiative. '
-    }, 
      {
       'name': 'Michael Baudis',
       'title': 'Metadata Task Team Co-chair',
