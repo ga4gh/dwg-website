@@ -124,7 +124,11 @@ var app = angular.module('ga4gh', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanit
 		  return "<a href='" + href + "'" + (title ? " title='" + title + "'" : '') + " target='_blank'>" + text + "</a>";
 		},
 		paragraph: function(text) {
-			return '<p class="md-body-1">' + text + '</p>';
+			return '<p class="md-body-1" >' + text + '</p>';
+
+		},
+		hr: function(text) {
+			return '<md-divider></md-divider>';
 
 		},
 		heading: function(text, level) {
