@@ -9,7 +9,7 @@
   .fnt-wt-xbold {
     font-weight: bold;
   }
-  
+
   th {
     padding: 0px;
     border-bottom: 1px solid gray;
@@ -46,6 +46,15 @@
           place. Once your "Beacon" is lit, you can start to take the next steps to add functionality to it, and finding the other
           groups who may help by following their Beacons.</p>
 
+        </md-content>
+      </md-tab>
+      <md-tab label="FAQ">
+        <md-content class="md-padding">
+          <div ng-repeat="faq in faqs" style="margin-bottom: 20px">
+            <a style="cursor: pointer; color: blue;" ng-click="show$index = !show$index" class="md-subhead"><span>{{show$index ? '-' : '+'}}</span> {{faq.question}}
+              </a>
+            <p ng-if="show$index" ng-bind-html="faq.answer"></p>
+          </div>
         </md-content>
       </md-tab>
       <md-tab label="Beacon Network">
@@ -90,7 +99,6 @@
 
         </md-content>
       </md-tab>
-
       <md-tab label="Developers">
         <md-content class="md-padding">
           <h1 class="md-display-2">Developers</h1>
