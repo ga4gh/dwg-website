@@ -9,7 +9,7 @@
   .fnt-wt-xbold {
     font-weight: bold;
   }
-  
+
   th {
     padding: 0px;
     border-bottom: 1px solid gray;
@@ -17,7 +17,7 @@
 
   td {
     border-bottom: 1px solid rgb(230,230,230);
-    padding 5px;
+    padding: 5px;
   }
 
   td:first-child {
@@ -46,6 +46,15 @@
           place. Once your "Beacon" is lit, you can start to take the next steps to add functionality to it, and finding the other
           groups who may help by following their Beacons.</p>
 
+        </md-content>
+      </md-tab>
+      <md-tab label="FAQ">
+        <md-content class="md-padding">
+          <div ng-repeat="faq in faqs" style="margin-bottom: 20px">
+            <a style="font-weight: bold; color: #2667c8" class="md-subhead">{{faq.question}}
+              </a>
+            <p ng-bind-html="faq.answer"></p>
+          </div>
         </md-content>
       </md-tab>
       <md-tab label="Beacon Network">
@@ -90,7 +99,6 @@
 
         </md-content>
       </md-tab>
-
       <md-tab label="Developers">
         <md-content class="md-padding">
           <h1 class="md-display-2">Developers</h1>
@@ -119,6 +127,31 @@
           </p>
         </md-content>
       </md-tab>
+      <md-tab label="News">
+        <md-content class="md-padding">
+          <h1 class="md-display-2">News</h1>
+          <p>
+            <a href="http://www.bio-itworld.com/2015/8/14/beacon-project-cracks-door-genomic-data-sharing.html">Beacon Project Cracks the Door for Genomic Data Sharing</a>
+          </p>
+          <p>
+            <a href="http://www.biotechniques.com/news/Beacons-for-Data-sharing/biotechniques-359902.html#.Vc4_CaPIu28">Beacons for data sharing</a>
+          </p>
+          <p>
+            <a href="https://www.ebi.ac.uk/about/news/press-releases/elixir-global-alliance-beacon-launch">Lighting beacons for data access in genomic research</a>
+          </p>
+          <p>
+            <a href="http://www.technologyreview.com/featuredstory/535016/internet-of-dna/">10 Breakthrough Technologies: Internet of DNA</a>
+          </p>
+          <p>
+            <a href="Geneticists Begin Tests of an Internet for DNA">Geneticists Begin Tests of an Internet for DNA</a>
+          </p>
+
+        </md-content>
+      </md-tab>
+
+
+
+
     </md-tabs>
   </md-content>
 </div>
