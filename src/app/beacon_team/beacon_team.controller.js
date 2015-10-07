@@ -1,7 +1,11 @@
 'use strict';
 
 angular.module('ga4gh').controller('BeaconTeamCtrl', function ($scope, Tabletop, $q, $http) {
-    $scope.active_menu = 'teams';
+
+  console.log('Beacon Team Controller');
+
+
+  $scope.active_menu = 'teams';
 	$scope.team_name = 'Beacon Project';
     $scope.team_desc_text = 'The Beacon project is a project to test the willingness of international sites to share genetic data in the simplest of all technical contexts.';
 
@@ -15,7 +19,8 @@ angular.module('ga4gh').controller('BeaconTeamCtrl', function ($scope, Tabletop,
 		$scope.members = split(data, 3);
 	});
 
-	function split(a, n) {
+
+  function split(a, n) {
 		var len = a.length,
 			out = [],
 			i = 0;
@@ -30,16 +35,16 @@ angular.module('ga4gh').controller('BeaconTeamCtrl', function ($scope, Tabletop,
 
 	// constants
 	var timeout = 30000;
-	var restUrl = "http://dnastack.com/bob-api/rest/";
+	var restUrl = "https://beacon-network.org/api/";
 	var beaconsUrl = restUrl + "beacons";
 	var responsesUrl = restUrl + "responses?";
 
 
-	/*
-	 * helper method for printBeaconsList
-	 * groups response based on organization
-	 * returns  { organization-name: [ {'name' : beacon-name, 'aggregator' : value} ] }
-	 */
+  /*
+     * helper method for printBeaconsList
+     * groups response based on organization
+     * returns  { organization-name: [ {'name' : beacon-name, 'aggregator' : value} ] }
+     */
 	function groupResponseByOrganization(response) {
 
 		var groupedResponse = {};
@@ -75,7 +80,10 @@ angular.module('ga4gh').controller('BeaconTeamCtrl', function ($scope, Tabletop,
 		return deferred.promise;
 	}
 
+  console.log('Getting Beacon list');
+
 	getBeaconsList($q, $http).then(function(data) {
+    console.log(data);
 		$scope.organizations = data;
 	}, function(error) {
 		console.log('Failed: ' + error);
@@ -110,12 +118,6 @@ angular.module('ga4gh').controller('BeaconTeamCtrl', function ($scope, Tabletop,
     {
       question: "What do institutions commit to when they join the Beacon Network?",
       answer: "When an institution “lights” a Beacon, it demonstrates its willingness and ability to share data. The organizations in the Beacon Network have created online search functions that let anyone in the world know if a certain allele exists in their datasets ― but only to find a particular kind of information that was carefully chosen not to overly expose genomic data to privacy or security risks. The rapid growth of the Beacon Project shows that many institutions across the globe are interested in working together to break down silos and share genomic information in innovative and responsible ways."
-    },
-
-    {
-      question : "I donated my genomic data to a database that now has a Beacon on top of it. Is my privacy compromised because of the Beacon?",
-      answer : "<p>Beacons themselves do not contain entire individual genome sequences or patient information. All information distributed through the Beacon Project’s yes/no query system has been previously approved to be shared or consented to be shared by the individuals in each data set. Additionally, the Beacon Project has been actively developing safeguards to mitigate potential privacy concerns since its inception.</p>" +
-                "<p>Additionally, any attempt to identify individuals through the Beacon Network would require an attacker to already have access to an individual’s genome sequence, or the sequence of a close relative, which means that the individual’s privacy has already been compromised. This contrived scenario is extremely unlikely in the real world. </p>"
     },
 
     {
