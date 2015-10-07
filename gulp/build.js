@@ -12,11 +12,6 @@ module.exports = function(options) {
       options.src + '/app/**/*.html',
       options.tmp + '/serve/app/**/*.html'
     ])
-      .pipe($.minifyHtml({
-        empty: true,
-        spare: true,
-        quotes: true
-      }))
       .pipe($.angularTemplatecache('templateCacheHtml.js', {
         module: 'ga4gh',
         root: 'app'
