@@ -51,9 +51,9 @@
       <md-tab label="FAQ">
         <md-content class="md-padding">
           <div ng-repeat="faq in faqs" style="margin-bottom: 20px">
-            <a style="cursor: pointer; color: blue;" ng-click="show$index = !show$index" class="md-subhead"><span>{{show$index ? '-' : '+'}}</span> {{faq.question}}
+            <a style="font-weight: bold; color: #2667c8" class="md-subhead">{{faq.question}}
               </a>
-            <p ng-if="show$index" ng-bind-html="faq.answer"></p>
+            <p ng-bind-html="faq.answer"></p>
           </div>
         </md-content>
       </md-tab>
