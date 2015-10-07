@@ -19,10 +19,10 @@
     <md-divider></md-divider>
     <div style="text-align: center" layout="row" layout-wrap layout-align="center center" layout-fill layout-padding layout-margin>
       <div class="md-title" flex="66" flex-sm="33" flex-order="1">The work of our group is broken up across the 11 Teams below.</div>
-      <md-whiteframe style="background:#7986CB
+      <md-card style="background:#7986CB
         ; color:white" ng-repeat="team in teams" flex="33" flex-order="2" class="md-whiteframe-z1" layout layout-align="center center">
         <md-button ng-href="{{team.url}}">{{team.name}}</md-button>
-      </md-whiteframe>
+      </md-card>  
     </div>
   </div>
 </div>
