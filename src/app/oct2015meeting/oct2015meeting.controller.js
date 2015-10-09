@@ -6,7 +6,7 @@ angular.module('ga4gh').controller('octCtrl', function($scope, $log, $window) {
 			latitude: 40.7234439,
 			longitude: -74.0051689
 		},
-		zoom: 12
+		zoom: 18
 	};
 	$scope.marker = {
 		id: 0,
