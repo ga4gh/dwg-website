@@ -135,7 +135,21 @@ angular.module('ga4gh')
       'title': 'File Formats Task Team Co-chair',
       'institute': 'Wellcome Trust Sanger Institute',
       'image': image_root + 'thomas_keane.jpg',
-      'bio': 'Thomas Keane leads the Sequence Variation Infrastructure group at the Wellcome Trust Sanger Institute. His group develops computational methods and representations of sequencing data at multiple levels: the raw reads from the sequencing machines; the tools and standardised data representations to carry out primary data processing and variant calling; and creating multiple laboratory mouse strain reference genomes.'
+      'bio': 'Thomas Keane leads the Sequence Variation Infrastructure group at the Wellcome Trust Sanger Institute.'
+    },
+    {
+      'name': 'Nicole Washington',
+      'title': 'G2P Chair Emeritus',
+      'institute': 'LBL',
+      'image': image_root + 'nicole_washington.jpg',
+      'bio': 'Nicole Washington is a Research Scientist in the Genomics Division of the Lawrence Berkeley National Laboratory and Lead Bioinformaticist for the Monarch Initiative.'
+    },
+    {
+      'name': 'Cassie Doll',
+      'title': 'Reads Chair Emeritus',
+      'institute': 'Google',
+      'image': image_root + 'cassie_doll.jpg',
+      'bio': 'Cassie is a staff software engineer at Google'
     },
   ];
 
