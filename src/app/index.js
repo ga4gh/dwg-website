@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('ga4gh', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ngMaterial', 'times.tabletop', 'hc.marked', 'ngMdIcons', 'uiGmapgoogle-maps']).config(function($stateProvider, $urlRouterProvider, $mdThemingProvider, $mdIconProvider, TabletopProvider, markedProvider, uiGmapGoogleMapApiProvider) {
+var app = angular.module('ga4gh', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ui.router', 'ngMaterial', 'times.tabletop', 'hc.marked', 'ngMdIcons', 'uiGmapgoogle-maps']).config(function($stateProvider, $urlRouterProvider, $mdThemingProvider, $mdIconProvider, TabletopProvider, markedProvider, uiGmapGoogleMapApiProvider) {
 
 	TabletopProvider.setTabletopOptions({
 		key: 'https://docs.google.com/spreadsheets/d/1NPM-d8ER7sbDjWmNwOW6kQuXWEtXOv4bq3cN0yhGVWw/pubhtml',

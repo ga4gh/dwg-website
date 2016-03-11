@@ -2,25 +2,24 @@
   "name": "ga4gh",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "~1.4.4",
-    "angular-animate": "~1.4.4",
-    "angular-cookies": "~1.4.4",
-    "angular-google-maps": "~2.1.5",
-    "angular-marked": "~0.0.21",
-    "angular-material": "0.11.2",
-    "angular-material-icons": "~0.5.0",
-    "angular-sanitize": "~1.3.4",
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-cookies": "~1.5.0",
+    "angular-google-maps": "~2.3.2",
+    "angular-marked": "~1.0.1",
+    "angular-material": "1.0.5",
+    "angular-material-icons": "~0.6.0",
+    "angular-sanitize": "~1.5.0",
     "angular-tabletop": "~0.2.1",
-    "angular-touch": "~1.4.4",
     "angular-ui-router": "ui-router#~0.2.15",
-    "jquery": "1.x.x",
+    "jquery": "2.x.x",
     "jquery.lazyload": "~1.9.5",
     "marked": "~0.3.5",
-    "restangular": "~1.4.0",
+
     "svg-morpheus": "~0.1.8"
   },
   "devDependencies": {
-    "angular-mocks": "~1.3.4"
+    "angular-mocks": "~1.5.0"
   },
   "resolutions": {
     "angular": "~1.3.4",

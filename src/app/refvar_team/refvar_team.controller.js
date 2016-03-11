@@ -4,7 +4,7 @@ angular.module('ga4gh').controller('RefVarTeamCtrl', function ($scope, Tabletop)
 	// Create a set of sizes...
     $scope.active_menu = 'teams';
 	$scope.team_name = 'Reference Variation Task Team';
-    $scope.team_desc_text = 'The mission of the Reference Variation Team is to describe the major ways in which genomes differ from each other and to provide that information to researchers to help them assemble and interpret them.';
+    $scope.team_desc_text = '#### The mission of the Reference Variation Team is to describe the major ways in which genomes differ from each other and to provide that information to researchers to help them assemble and interpret them.';
 	$scope.github = {
 		uri: 'https://github.com/ga4gh/schemas',
 		text: 'githb.com/ga4gh/schemas'

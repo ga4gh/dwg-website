@@ -3,7 +3,7 @@
 angular.module('ga4gh').controller('RNAseqTeamCtrl', function($scope, Tabletop) {
     $scope.active_menu = 'teams';
 	$scope.team_name = 'RNAseq and Gene Expression ask Team';
-    $scope.team_desc_text = 'The RNAseq and gene expression team will provide APIs to interoperably store, process, explore and share RNA sequence reads, computed transcript structures, and their expression levels.';
+    $scope.team_desc_text = '#### The RNAseq and gene expression team will provide APIs to interoperably store, process, explore and share RNA sequence reads, computed transcript structures, and their expression levels.';
    
     $scope.github = {
 		uri: 'https://github.com/ga4gh/schemas',

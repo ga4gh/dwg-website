@@ -3,7 +3,7 @@
 angular.module('ga4gh').controller('CWFTeamCtrl', function ($scope, Tabletop) {
     $scope.active_menu = 'teams';
 	$scope.team_name = 'Containers and Workflows Task Team';
-    $scope.team_desc_text = 'The Common Workflow Language (CWL) is an informal, multi-vendor working group consisting of various organizations and individuals that have an interest in portability of data analysis workflows.  Our goal is to create specifications that enable data scientists to describe analysis tools and workflows that are powerful, easy to use, portable, and support reproducibility.  CWL can be used to describe workflows for a variety of problem areas including data-intensive science like bioinformatics, physics, and astronomy; and business analytics such as log analysis, data mining, and ETL. This group was born out of the BOSC 2014 codefest.';
+    $scope.team_desc_text = '#### The GA4GH containers and workflow group is focused on technologies and best practice methodologies for running portable and reproducible genomic analysis pipelines. This group coordinates efforts around the development of languages for describing repeatable genomic workflows, as well as tools and APIs for discovering genomic analysis tools. Members of this working group include the developers from several workflow description efforts (such as [CWL](http://commonwl.org), and [WDL](https://github.com/broadinstitute/wdl), ), as well as maintainers of genomic container repositories.';
 
 	$scope.github = {
 		uri: 'https://github.com/ga4gh/schemas',

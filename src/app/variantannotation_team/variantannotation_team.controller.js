@@ -3,7 +3,7 @@
 angular.module('ga4gh').controller('VariantAnnotationTeamCtrl', function ($scope, Tabletop) {
     $scope.active_menu = 'teams';
 	$scope.team_name = 'Variant Annotation Task Team';
-    $scope.team_desc_text = 'The mission of Variant Annotation task team is to develop common standards for reporting variant annotation including results formats, ontologies and vocabularies for different classes of annotation so reporting is consistent and in a manner that facilitates benchmarking and evaluation.';
+    $scope.team_desc_text = '#### The mission of Variant Annotation task team is to develop common standards for reporting variant annotation including results formats, ontologies and vocabularies for different classes of annotation so reporting is consistent and in a manner that facilitates benchmarking and evaluation.';
 
 
 	$scope.github = {

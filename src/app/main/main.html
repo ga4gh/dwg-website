@@ -1,49 +1,43 @@
-<md-card>
-  <!-- <md-content> -->
-  <md-card-content class="md-padding">
-    <h1 class="md-display-1 ">GA4GH Data Working Group</h1>
-    <md-divider></md-divider>
-
-    <p class="md-headline">
-      Led by David Haussler (UCSC) and Richard Durbin (Sanger Institute), the Data Working Group (DWG) of the Global Alliance brings
-      together the leading Genome Institutes and Centers with IT industry leaders to create global standards and tools for
-      the secure, privacy respecting and interoperable sharing of Genomic data.</p>
-  </md-card-content>
-</md-card>
-<!-- <md-content> -->
 <div flex layout="row" layout-align="center">
-  <!-- <md-content> -->
-  <div class="md-padding" layout-fill layout="column">
-    <h1 class="md-display-1 ">Task Teams</h1>
-
-    <md-divider></md-divider>
-    <div style="text-align: center" layout="row" layout-wrap layout-align="center center" layout-fill layout-padding layout-margin>
-      <div class="md-title" flex="66" flex-sm="33" flex-order="1">The work of our group is broken up across the 11 Teams below.</div>
-      <md-card style="background:#7986CB
-        ; color:white" ng-repeat="team in teams" flex="33" flex-order="2" class="md-whiteframe-z1" layout layout-align="center center">
-        <md-button ng-href="{{team.url}}">{{team.name}}</md-button>
-      </md-card>  
-    </div>
-  </div>
+    <md-card>
+        <!-- <md-content> -->
+        <md-card-content class="md-padding">
+            <h1 class="md-display-1 ">GA4GH Data Working Group</h1>
+            <md-divider></md-divider>
+            <p class="md-headline">
+                Led by David Haussler (UCSC) and Richard Durbin (Sanger Institute), the Data Working Group (DWG) of the Global Alliance brings
+                together the leading Genome Institutes and Centers with IT industry leaders to create global standards and
+                tools for the secure, privacy respecting and interoperable sharing of Genomic data.</p>
+        </md-card-content>
+    </md-card>
 </div>
-<!-- </md-content> -->
-<div flex style="" layout="row" layout-align="center">
-  <div flex-gt-sm="80" layout-fill layout="column">
-    <h1 class="md-display-1 ">Working Group and Task Team Chairs</h1>
-    <div layout="row" layout-wrap layou-fill layout-paddin layput-margin>
-      <div flex="25" flex-sm="10" ng-repeat="chair in chairs" class="text-center">
-        <md-card>
-          <img class="lazy md-card-image" data-original="{{chair.image}}" alt="">
-
-          <md-card-content>
-            <h2 class="md-title">{{chair.name}}</h2>
-            <h4 class="md-subhead">{{chair.title}}</h4>
-            <h3 class="md-caption">{{chair.institute}}</h3>
-            <div class="border"></div>
-            <p class="md-body-1">{{chair.bio}}</p>
-          </md-card-content>
+<h1 class="md-display-1 ">Task Teams</h1>
+<md-divider></md-divider>
+<div flex layout="row" layout-align="center">
+    <div layout="row" layout-wrap layout-align="center center" layout-fill layout-padding layout-margin>
+        <div class="md-title" flex="66" flex-sm="33" flex-order="1">The work of our group is carried out across the 11 Teams below.</div>
+        <md-card style="background:#7986CB
+        ; color:white" ng-repeat="team in teams" flex="33" flex-order="2" class="md-whiteframe-z1" layout layout-align="center center">
+            <md-button ng-href="{{team.url}}">{{team.name}}</md-button>
         </md-card>
-      </div>
     </div>
-  </div>
+</div>
+<div flex style="" layout="row" layout-align="center">
+    <div flex-gt-sm="80" layout-fill layout="column">
+        <h1 class="md-display-1 ">Working Group and Task Team Chairs</h1>
+        <div layout="row" layout-wrap layou-fill layout-paddin layput-margin>
+            <div flex="25" flex-sm="10" ng-repeat="chair in chairs" class="text-center">
+                <md-card>
+                    <img class="lazy md-card-image" data-original="{{chair.image}}" alt="">
+                    <md-card-content>
+                        <h2 class="md-title">{{chair.name}}</h2>
+                        <h4 class="md-subhead">{{chair.title}}</h4>
+                        <h3 class="md-caption">{{chair.institute}}</h3>
+                        <div class="border"></div>
+                        <p class="md-body-1">{{chair.bio}}</p>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </div>
+    </div>
 </div>
