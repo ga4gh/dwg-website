@@ -22,13 +22,20 @@
         </md-card>
     </div>
 </div>
-<div flex style="" layout="row" layout-align="center">
-    <div flex-gt-sm="80" layout-fill layout="column">
+<div flex layout="row" layout-align="center">
+    <div layout-fill layout="column">
         <h1 class="md-display-1 ">Working Group and Task Team Chairs</h1>
-        <div layout="row" layout-wrap layou-fill layout-paddin layput-margin>
-            <div flex="25" flex-sm="10" ng-repeat="chair in chairs" class="text-center">
+        <div  layout-xs="column" layout="row" layout-wrap >
+            <div  flex="33"  ng-repeat="chair in chairs" class="text-center">
                 <md-card>
-                    <img class="lazy md-card-image" data-original="{{chair.image}}" alt="">
+
+
+
+                        <img class="lazy md-card-image" data-original="{{chair.image}}" alt="">
+                        <!--<img class="md-card-image" width="225"" height="280"" src="{{chair.image}}">-->
+
+
+
                     <md-card-content>
                         <h2 class="md-title">{{chair.name}}</h2>
                         <h4 class="md-subhead">{{chair.title}}</h4>
