@@ -11,3 +11,14 @@ $ npm install
 $ bower install
 $ gulp serve
 ```
+
+#### Using Docker
+
+```
+$ docker build -t dwg-website .
+$ docker run --name=dwg-website dwg-website
+$ docker exec -ti dwg-website /bin/bash
+```
+
+Once inside the container, `cd /dwg-website`.  Suggested workflow is to make
+changes externally and use `git pull` to pull them in for testing.
